@@ -5,82 +5,118 @@
   <title>Basic Keylogger - Educational Project</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
   <header>
-    <h1>Basic Keylogger</h1>
     <nav>
-      <a href="#features">Features</a>
-      <a href="#usage">Usage</a>
-      <a href="#ethical">Ethics</a>
-      <a href="#contact">Contact</a>
-      <a href="https://github.com/Tanvi228-yadav/basic-keylogger" target="_blank">GitHub</a>
+      <a href="#" class="logo"><i class="fas fa-keyboard"></i> Basic Keylogger</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+      <ul>
+        <li><a href="#features"><i class="fa-solid fa-star"></i> Features</a></li>
+        <li><a href="#usage"><i class="fa-solid fa-terminal"></i> Usage</a></li>
+        <li><a href="#ethical"><i class="fa-solid fa-scale-balanced"></i> Ethics</a></li>
+        <li><a href="#contact"><i class="fa-solid fa-user"></i> Contact</a></li>
+        <li><a href="https://github.com/Tanvi228-yadav/basic-keylogger" target="_blank" class="github-btn"><i class="fab fa-github"></i> GitHub</a></li>
+      </ul>
     </nav>
+    <div class="hero">
+      <div class="hero-content">
+        <h1><i class="fas fa-keyboard"></i> Basic Keylogger</h1>
+        <p class="subtitle">A modern & ethical Python keylogger project for learning and security auditing.</p>
+        <a href="#usage" class="cta-btn">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
   </header>
   <main>
-    <section id="intro">
-      <h2>Welcome!</h2>
-      <p>
-        This project demonstrates a <strong>simple, ethical, and educational keylogger</strong> written in Python.<br>
-        <b>Warning:</b> Only use with explicit permission and for learning or authorized auditing!
-      </p>
-    </section>
     <section id="features">
-      <h2>Features</h2>
-      <ul>
-        <li>Logs all keystrokes (characters and special keys)</li>
-        <li>Saves logs to uniquely named files for each session</li>
-        <li>Cross-platform: Windows, Linux, macOS</li>
-        <li>Easy setup and usage</li>
-        <li>Session management and buffer auto-flushing</li>
-        <li>Clean exit with ESC key</li>
-      </ul>
+      <h2><i class="fa-solid fa-star"></i> Features</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <i class="fa-solid fa-clipboard-list"></i>
+          <h3>Comprehensive Logging</h3>
+          <p>Records every keystroke, including special keys, with session separation and timestamps.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fa-solid fa-file-shield"></i>
+          <h3>Secure & Ethical</h3>
+          <p>For educational or authorized use only, with clear session IDs and logs stored locally.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fa-solid fa-globe"></i>
+          <h3>Cross-Platform</h3>
+          <p>Works on Windows, Linux, and macOS using <code>pynput</code> library.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fa-solid fa-bolt"></i>
+          <h3>Easy Setup</h3>
+          <p>Simple installation and execution. Start logging keystrokes in just a few commands.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fa-solid fa-stopwatch"></i>
+          <h3>Live Session Control</h3>
+          <p>Auto-flushes logs, and ends cleanly with the ESC key. Each session gets a unique log file.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fa-solid fa-folder-open"></i>
+          <h3>Organized Logs</h3>
+          <p>Logs are saved in a structured <code>logs/</code> folder, with one file per session.</p>
+        </div>
+      </div>
     </section>
     <section id="usage">
-      <h2>How to Use</h2>
-      <ol>
-        <li>
-          <b>Clone the repository:</b><br>
-          <code>git clone https://github.com/Tanvi228-yadav/basic-keylogger.git</code>
-        </li>
-        <li>
-          <b>Install requirements:</b><br>
-          <code>pip install -r requirements.txt</code>
-        </li>
-        <li>
-          <b>Run the keylogger (for authorized testing only):</b><br>
-          <code>python keylogger.py</code>
-        </li>
-        <li>
-          <b>Stop the keylogger:</b> <br>
-          Press <b>ESC</b>.
-        </li>
-        <li>
-          <b>View logs:</b><br>
-          Open the <code>logs/</code> folder and view the latest log file.
-        </li>
-      </ol>
-      <p>
-        <b>Full code and documentation:</b> <a href="https://github.com/Tanvi228-yadav/basic-keylogger" target="_blank">View on GitHub</a>
+      <h2><i class="fa-solid fa-terminal"></i> Usage</h2>
+      <div class="usage-steps">
+        <div>
+          <span class="step-badge">1</span>
+          <b>Clone:</b> <code>git clone https://github.com/Tanvi228-yadav/basic-keylogger.git</code>
+        </div>
+        <div>
+          <span class="step-badge">2</span>
+          <b>Install:</b> <code>pip install -r requirements.txt</code>
+        </div>
+        <div>
+          <span class="step-badge">3</span>
+          <b>Run:</b> <code>python keylogger.py</code>
+        </div>
+        <div>
+          <span class="step-badge">4</span>
+          <b>Stop:</b> Press <b>ESC</b> key
+        </div>
+        <div>
+          <span class="step-badge">5</span>
+          <b>View Logs:</b> Open <code>logs/</code> and check the latest <code>log_*.txt</code>
+        </div>
+      </div>
+      <p class="usage-note">
+        <b>Full documentation and code:</b>
+        <a href="https://github.com/Tanvi228-yadav/basic-keylogger" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
       </p>
     </section>
     <section id="ethical">
-      <h2>Ethical & Legal Notice</h2>
+      <h2><i class="fa-solid fa-scale-balanced"></i> Ethical & Legal Notice</h2>
       <div class="notice">
-        <p><b>Important:</b> Keylogging is illegal and unethical without explicit consent. This project is for educational and authorized auditing purposes only. Always obtain <b>written permission</b> before running this program on any device or system.</p>
-        <p><i>Author and contributors are not responsible for any misuse.</i></p>
+        <i class="fa-solid fa-triangle-exclamation"></i>
+        <b>Important:</b> Keylogging is illegal and unethical without explicit consent.<br>
+        This project is for <b>educational and authorized security testing</b> only.<br>
+        Always obtain <b>written permission</b> before running this program.<br>
+        <i>Author and contributors are not responsible for misuse.</i>
       </div>
     </section>
     <section id="contact">
-      <h2>Contact</h2>
-      <p>
-        <b>Project Author:</b> Tanvi228-yadav <br>
-        <b>GitHub:</b> <a href="https://github.com/Tanvi228-yadav">Tanvi228-yadav</a>
-      </p>
+      <h2><i class="fa-solid fa-user"></i> Contact</h2>
+      <div class="contact-box">
+        <i class="fa-solid fa-user-astronaut"></i>
+        <div>
+          <b>Author:</b> Tanvi228-yadav<br>
+          <b>GitHub:</b> <a href="https://github.com/Tanvi228-yadav" target="_blank">Tanvi228-yadav</a>
+        </div>
+      </div>
     </section>
   </main>
   <footer>
-    <p>&copy; 2025 Tanvi228-yadav | For educational use only</p>
+    <p>&copy; 2025 Tanvi228-yadav &mdash; For educational use only</p>
   </footer>
 </body>
 </html>
