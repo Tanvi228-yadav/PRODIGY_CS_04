@@ -1,23 +1,39 @@
 # PROGIDY_CS_04: Basic Keylogger
 
 ## Description
-This is a basic keylogger program created for educational purposes as part of an internship. It records keyboard keystrokes and saves them to a file in the `logs` directory.
+A basic keylogger program that records and logs keystrokes. The program logs every key pressed and saves them to a file inside the `logs` directory.
 
-**Note:**  
-> Ethical considerations and explicit permission are absolutely required before running this program. Do NOT use it on any system without consent.
+> **Note:** This project is for educational purposes only. **Ethical considerations and explicit permissions are crucial. Do NOT run this on any computer without legal and authorized consent.**
+
+---
+
+## Installation
+
+1. **Clone the repository:**
+   ```
+   git clone https://github.com/Tanvi228-yadav/PRODIGY_CS_04.git
+   cd PRODIGY_CS_04
+   ```
+2. **Install dependencies:**
+   ```
+   pip install -r requirements.txt
+   ```
+
+---
 
 ## Usage
 
-1. Install dependencies:
-    ```
-    pip install -r requirements.txt
-    ```
-2. Run the keylogger:
-    ```
-    python keylogger.py
-    ```
-3. Press `ESC` to stop logging.
-4. Check the `logs/` folder for the output `.txt` file.
+1. **Run the keylogger:**
+   ```
+   python keylogger.py
+   ```
+2. **To stop logging:**  
+   Press the `ESC` key.
+
+3. **View the logs:**  
+   Check the `logs/` folder for files named like `log_YYYYMMDD_HHMMSS.txt`.
+
+---
 
 ## Example Output
 
@@ -27,13 +43,17 @@ This is a basic keylogger program created for educational purposes as part of an
 2025-06-19 12:10:03,789: Special key pressed: Key.space
 ```
 
+---
+
 ## Requirements
 
 - Python 3.x
 - `pynput` package
 
+---
+
 ## Disclaimer
 
-This project is for educational use **only**.  
-The use of keyloggers is strictly regulated by law.  
-**Do not run or share this program without explicit legal permission.**
+- This project is for **educational purposes only**.
+- The use of keyloggers is regulated by law in many jurisdictions.
+- **Do not use, share, or run this program without explicit legal permission.**
