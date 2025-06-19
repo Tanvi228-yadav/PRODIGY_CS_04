@@ -1,0 +1,5 @@
+2025-06-19 13:06:12,899: Key pressed: d
+2025-06-19 13:06:13,104: Key pressed: i
+2025-06-19 13:06:13,270: Key pressed: r
+2025-06-19 13:06:14,639: Special key pressed: Key.enter
+2025-06-19 13:06:15,851: Special key pressed: Key.esc

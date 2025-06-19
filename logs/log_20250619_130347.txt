@@ -1,0 +1,5 @@
+2025-06-19 13:03:52,057: Key pressed: h
+2025-06-19 13:03:52,257: Key pressed: i
+2025-06-19 13:03:52,510: Key pressed: i
+2025-06-19 13:03:53,317: Special key pressed: Key.enter
+2025-06-19 13:03:55,652: Special key pressed: Key.esc

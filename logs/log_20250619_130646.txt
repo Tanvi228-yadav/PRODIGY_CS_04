@@ -1,0 +1,12 @@
+2025-06-19 13:06:47,469: Key pressed: e
+2025-06-19 13:06:47,734: Key pressed: c
+2025-06-19 13:06:48,045: Key pressed: h
+2025-06-19 13:06:48,429: Key pressed: o
+2025-06-19 13:06:48,620: Special key pressed: Key.space
+2025-06-19 13:06:49,222: Key pressed: h
+2025-06-19 13:06:49,451: Key pressed: e
+2025-06-19 13:06:49,753: Key pressed: l
+2025-06-19 13:06:49,915: Key pressed: l
+2025-06-19 13:06:50,158: Key pressed: o
+2025-06-19 13:06:50,522: Special key pressed: Key.enter
+2025-06-19 13:06:52,125: Special key pressed: Key.esc
